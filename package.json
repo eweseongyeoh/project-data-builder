@@ -1,0 +1,20 @@
+{
+  "name": "project-data-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "extract:text": "./node_modules/.bin/dotenvx run -f .env.local -f .env.production -- node text-extractor.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^0.32.0",
+    "axios": "^1.6.8",
+    "decompress": "^4.2.1",
+    "dotenv": "^16.4.5",
+    "export-to-csv": "^1.2.4",
+    "pdf-to-text": "^0.0.7"
+  }
+}
