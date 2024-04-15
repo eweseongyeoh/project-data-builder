@@ -1,0 +1,72 @@
+[
+  {
+    "description": "name of property",
+    "type": "string",
+    "var_name": "name"
+  },
+  {
+    "description": "name of property developer",
+    "type": "string",
+    "var_name": "developer"
+  },
+  {
+    "description": "property type",
+    "type": "array[string]",
+    "var_name": "type"
+  },
+  {
+    "description": "property units types",
+    "type": "array[string]",
+    "var_name": "units_types"
+  },
+  {
+    "description": "ownership of property",
+    "type": "string",
+    "var_name": "tenure"
+  },
+  {
+    "description": "completion date of property",
+    "type": "string",
+    "var_name": "top_date"
+  },
+  {
+    "description": "sales gallery of property developer",
+    "type": "string",
+    "var_name": "sales_gallery"
+  },
+  {
+    "description": "property price ranges",
+    "type": "array[float]",
+    "var_name": "prices"
+  },
+  {
+    "description": "number of bedrooms",
+    "type": "float",
+    "var_name": "num_bedrooms"
+  },
+  {
+    "description": "amenities in property",
+    "type": "array[string]",
+    "var_name": "amenities",
+    "valid_values": [
+      "playground",
+      "pool",
+      "parking",
+      "balcony",
+      "backyard",
+      "elevator",
+      "gym",
+      "nursery"
+    ]
+  },
+  {
+    "description": "bumiputera discount",
+    "type": "string",
+    "var_name": "bumi_discount"
+  },
+  {
+    "description": "restriction of interest",
+    "type": "boolean",
+    "var_name": "is_restricted"
+  }
+]
